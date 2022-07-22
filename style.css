@@ -1,0 +1,141 @@
+.btn {
+    width: 300px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 0, 255);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+.btn:hover {
+    background-color: rgb(183, 163, 255);
+    transform: scale(1.1);
+}
+
+.btn:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(247, 11, 11);
+}
+
+.item {
+    width: 300px;
+    height: 600px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 30px;
+    border-radius: 30px;
+    margin-bottom: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    margin: 20px;
+
+}
+
+.item:hover {
+    box-shadow: 3px 10px 10px #000000;
+}
+
+.item-img {
+    width: 300px;
+    height: 300px;
+    background-color: #9b9b9b;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    display: block;
+}
+
+.item-title {
+    font-size: 12px;
+    margin-bottom: 30px;
+
+}
+
+.catalog {
+    margin: 40px;
+    display: flex;
+    justify-content: baseline;
+    flex-wrap: wrap;
+
+
+}
+
+.top {
+    display: flex;
+    align-items: center
+}
+
+.footer {
+    background-color: #ecebeb;
+    padding: 20px;
+}
+
+.top2 {
+    display: inline;
+    display: flex;
+    align-items: center;
+    box-sizing: inherit;
+}
+
+.ul {
+    display: flex;
+    align-items: center;
+    outline: none;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-bottom: 80px;
+    padding: 20px;
+}
+
+.tabl {
+    display: flex;
+}
+
+.Create {
+    display: flex;
+    align-items: center;
+}
+
+.Logo {
+    padding-left: 10px;
+}
+
+.TEXT {
+    font-size: 16px;
+}
+
+.tel {
+    margin-top: 300px;
+}
+.textbox {
+    line-height: 15px;
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.content {
+    margin: 10%;
+    height: 430px;
+    border: 2px solid #000000;
+   
+    padding: 50px;
+    padding-left: 250px;
+    background-color: #e0e0e0;
+}
+input {
+    width: 260px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0;
+    padding-left: 10px;
+    
+}
+.text_ili {
+    margin-left: 140px;
+    font-size: 20px;
+}
+
